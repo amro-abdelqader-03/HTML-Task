@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Amro Abdelqader">
+        <meta name="keywords" content="HTML, Form, Application">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" required><br><br>
+
+            <label for="dob">Date of bith:</label>
+            <input type="date" name="dob">
+            <label for="age">Age:</label>
+            <input type="number" min="0" name="age"><br><br>
+
+            <label for="gender">Gender:</label>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" placeholder="Enter email address"><br><br>
+
+            <label for="position">Position Avaliable:</label>
+            <input type="radio" name="position">
+            <label>Junior Developer</label>
+            <input type="radio" name="position">
+            <label>Mid-level Developer</label>
+            <input type="radio" name="position">
+            <label>Senior Developer</label><br><br>
+
+            <label for="prog_lang">Programming Languages:</label>
+            <input type="checkbox" name="prog_lang">
+            <label for="prog_lang">Java</label>
+            <input type="checkbox" name="prog_lang">
+            <label for="prog_lang">Javascript</label>
+            <input type="checkbox" name="prog_lang">
+            <label for="prog_lang">python</label><br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" required>
+            <label>Confirm Passord:</label>
+            <input type="password" required><br><br>
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
